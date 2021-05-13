@@ -472,6 +472,8 @@ spec:
            #  value: "1"
            #- name: JAEGER_SERVICE_ADDR
            #  value: "jaeger-collector:14268"
+            - name: PRODUCT_CATALOG_SERVICE_ADDR
+              value: "3550"
           ports:
             - name: grpc
               containerPort: 50051
