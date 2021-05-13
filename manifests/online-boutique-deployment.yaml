@@ -459,7 +459,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: registry.deepfence.net/shippingservice:v0.2.2 # {"$imagepolicy":"flux-system:recommendationservice"}
+          image: registry.deepfence.net/shippingservice:v0.2.2 # {"$imagepolicy":"flux-system:shippingservice"}
           imagePullPolicy: Always
           env:
             - name: PORT
